@@ -47,6 +47,9 @@ window:
   #     - transparent: Title bar, transparent background, but no title bar buttons
   decorations: none
 
+  # When true, alacritty starts maximized.
+  start_maximized: true
+
 scrolling:
   # Maximum number of lines in the scrollback buffer.
   # Specifying '0' will disable scrolling.
@@ -115,7 +118,7 @@ font:
 
   # Scale the font size based on the monitor's DPI. This will lead to bigger text on HiDPI
   # screens and make reading text a little easier.
-  scale_with_dpi: true
+  # scale_with_dpi: true
 
   # Thin stroke font rendering (OS X only)
   #
@@ -336,7 +339,7 @@ color_schemes:
       cyan:    '0x4fb8cc'
       white:   '0xf1f1f1'
 
-colors: *gruvbox
+colors: *falcon
 
 # Visual Bell
 #
