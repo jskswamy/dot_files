@@ -1,4 +1,6 @@
 set editing-mode vi
+set show-mode-in-prompt on
+
 "\C-p":previous-history
 "\C-n":next-history
 "\C-a.":beginning-of-line
