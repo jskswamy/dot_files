@@ -127,3 +127,5 @@
   path = .gitconfig.user
 [init]
 	templatedir = /Users/13079/.git-template
+[user]
+	name = Krishnaswamy Subramanian
