@@ -48,7 +48,7 @@ chunkc set custom_bar_offset_bottom      24
 chunkc set custom_bar_offset_left        0
 chunkc set custom_bar_offset_right       0
 
-chunkc set global_desktop_mode           monocle
+chunkc set global_desktop_mode           bsp
 chunkc set global_desktop_offset_top     5
 chunkc set global_desktop_offset_bottom  5
 chunkc set global_desktop_offset_left    5
@@ -96,9 +96,9 @@ chunkc set preselect_border_outline      0
 #       (https://github.com/koekeishiya/chwm-sa)
 #
 
-chunkc set window_float_topmost          0
-chunkc set window_fade_inactive          0
-chunkc set window_fade_alpha             0.85
+chunkc set window_float_topmost          1
+chunkc set window_fade_inactive          1
+chunkc set window_fade_alpha             0.93
 chunkc set window_fade_duration          0.25
 chunkc set window_use_cgs_move           0
 
